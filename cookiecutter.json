@@ -1,0 +1,11 @@
+{
+	"repo_name" : "ExampleModule",
+	"description" : "A short description of the module",
+	"description": "A description for the module",
+	"vendor_name" : "vendorname",
+	"package_name" : "example-module",
+	"version" : "0.1.0",
+	"author_name" : "Your Name",
+	"url" : "https://github.com/...",
+	"license" : "GPL v2"
+}

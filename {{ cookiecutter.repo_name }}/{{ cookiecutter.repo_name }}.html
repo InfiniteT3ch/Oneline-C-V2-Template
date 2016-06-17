@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+  <html>
+    <head>
+        <title>{{ cookiecutter.repo_name }} Module</title>
+    </head>
+    <body>
+       <script type="application/javascript">
+	   var ws = new WebSocket("ws://"+document.location.host+":9000/{{ cookiecutter.repo_name }}");
+	   ws.onopen = function() { 
+		console.log("Opened socket");
+	    };
+	   ws.onmessage = function(evt) {
+	   	console.log("Received message", evt);
+	   };
+	   ws.onclose = function() {
+		console.log("Closing socket");
+	    };
+	</script>
+   </body>
+ </html>
+ 	 
+
+
+
