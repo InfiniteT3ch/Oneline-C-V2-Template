@@ -1,4 +1,5 @@
 {
+	"repo_name": "",
 	"description" : "A short description of the module",
 	"vendor_name" : "vendorname",
 	"package_name" : "example-module",
